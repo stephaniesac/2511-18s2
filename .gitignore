@@ -1,6 +1,12 @@
 # Compiled class file
 *.class
 
+# Javadocs
+*.html
+*.js
+*.css
+package-list
+
 # Log file
 *.log
 
