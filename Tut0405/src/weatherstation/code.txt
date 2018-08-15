@@ -1,0 +1,23 @@
+public class WeatherStation {
+  private Thermometer t;
+
+  public Thermometer getThermometer() {
+    return t;
+  }
+
+  public float getTemp() {
+    return t.getTemp();
+  }
+}
+
+public class Thermometer {
+  public float getTemp() {
+    return 0;
+  }
+}
+
+public class House {
+  private WeatherStation station;
+  public float getTemp() {
+    return station.getTemp();
+}
