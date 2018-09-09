@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 
 public class BasicSet implements IntSet {
-  ArrayList<Integer> set;
+  private ArrayList<Integer> set;
 
   public static void main(String[] args) {
     System.out.println("Testing Set Interface:");
