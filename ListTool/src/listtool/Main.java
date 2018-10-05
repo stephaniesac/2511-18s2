@@ -12,7 +12,8 @@ public class Main extends Application {
         primaryStage.setHeight(400);
 
         /* Create the Home Scene */
-        new ListScene(primaryStage).display();
+        ListScene sc = new ListScene(primaryStage);
+        sc.display();
     }
 
     public static void main(String[] args) {
